@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Hotel Guest</string>
+    <string name="ask_me">Ask Me</string>
+    <string name="hotel_info">Hotel Information</string>
+    <string name="house_keeping">House Keeping</string>
+    <string name="reception">Reception</string>
+    <string name="travel">Valet and Travel</string>
+    <string name="room_service">Room Service</string>
+    <string name="Concierge">Concierge</string>
+</resources>

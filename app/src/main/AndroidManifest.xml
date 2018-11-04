@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.m999g.hotel">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Ask_me"
+            android:label="@string/ask_me"/>
+        <activity android:name=".Hotel_info"
+            android:label="@string/hotel_info"/>
+        <activity android:name=".House_keeping"
+            android:label="@string/house_keeping"/>
+        <activity android:name=".Reception"
+            android:label="@string/reception"/>
+        <activity android:name=".Travel"
+            android:label="@string/travel"/>
+        <activity android:name=".Room_service"
+            android:label="@string/room_service"/>
+        <activity android:name=".Concierge"
+            android:label="@string/Concierge"/>
+        <activity android:name=".Maintenance"
+            android:label="Maintenance"/>
+        <activity android:name=".tv_appliances"
+            android:label="TV and Appliances"/>
+    </application>
+
+</manifest>
